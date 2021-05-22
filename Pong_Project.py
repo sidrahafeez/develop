@@ -1,9 +1,9 @@
 import turtle
 
 root=turtle.Screen()
-root.bgcolor("Navy blue")
-root.title("Pong Game")
-root.setup(width=800,height=600)
+root.bgcolor("light blue")
+root.title("Pong Game By Sidra")
+root.setup(width=850,height=650)
 root.tracer(2)
 
 #paddle_a
@@ -29,7 +29,7 @@ paddle_b.goto(350,0)
 ball=turtle.Turtle()
 ball.speed(0)
 ball.shape("circle")
-ball.color("white")
+ball.color("black")
 ball.penup()
 ball.goto(0,0)
 ball.dx = 2
@@ -38,7 +38,7 @@ ball.dy = -2
 #pen
 pen = turtle.Turtle()
 pen.speed(0)
-pen.color("white")
+pen.color("black")
 pen.penup()
 pen.hideturtle()
 pen.goto(0,260)
